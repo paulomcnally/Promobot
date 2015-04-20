@@ -1,0 +1,16 @@
+<?php echo $this->Html->script(array('jquery','jquery.dataTables.min','category'));?>
+<?php
+   $rjson = array();
+   $cont = 0;  
+   foreach($categories as $category){
+
+      if($category['Category']['id'] == $category['Parent']['id']){
+        $rjson[$cont] = array('id' => $category['Category']['name'],'parent' => '#','text' => $category['Category']['name'],'icon' => $category['Category']['image']);   
+      }
+      else{
+         $rjson[$cont] = array('id' => $category['Category']['name'],'parent' => $category['Parent']['name'],'text' => $category['Category']['name'],'icon' => $category['Category']['image']);
+     }
+     ++$cont; 
+  }
+  echo json_encode($rjson);
+?>

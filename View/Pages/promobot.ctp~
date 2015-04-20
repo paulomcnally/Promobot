@@ -1,0 +1,116 @@
+<?php echo $this->Html->script(array('jquery','bootstrap.min','jquery.backstretch.min','jquery.pageslide.min','jquery.sequence.min','infobot.landing.main'));?>
+<div id="slider" class="wrap header">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <header>
+	  <img style="display: block;height: auto;margin-left: auto;margin-right: auto;max-width: 50%;" src="img/infobot/Infobot_logo.png"/>
+        </header>
+        <div class="sequence-theme">
+          <div id="sequence">
+            <ul class="sequence-canvas">
+              <li class="animate-in">
+				<img class="model" src="img/infobot/slide01.png" alt="Phone 1"/> </li>
+              <li>
+                <img class="model" src="img/infobot/slide02.png" alt="Phone 2"/> </li>
+			  <li>
+                <img class="model" src="img/infobot/slide03.png" alt="Phone 3"/> </li>
+            </ul>
+            <ul class="sequence-pagination">
+              <li><i class="icon-circle"></i></li>
+              <li><i class="icon-circle"></i></li>
+			  <li><i class="icon-circle"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="cta-mobile">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+   
+      </div>
+    </div>
+  </div>
+</div>
+<div id="features" class="wrap highlight">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-sm-12">
+       <img style="/* width:50% */" src="img/infobot/Ahorasi.png"/>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="testimonials" class="wrap content">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div id="carousel-example-generic" class="carousel slide">
+          <ol class="carousel-indicators">
+         	<?php
+         	$counter = 0; 
+         	foreach($testimonies as $testimony){
+				if($counter == 0){?>
+         			<li data-target="#carousel-example-generic" data-slide-to="<?php echo $counter;?>" class="active"></li>
+         		<?php }else{?>
+         			<li data-target="#carousel-example-generic" data-slide-to="<?php echo $counter;?>"></li>
+         	<?php }
+         	$counter++;
+			}?>
+          </ol>
+          <div class="carousel-inner">
+          <?php 
+          $active_class = 'active';
+          foreach($testimonies as $testimony){?>
+            <div class="item <?php echo $active_class;?>">
+              <div class="review-thumb"> <img class="img-circle" src="img/<?php echo $testimony['BetaUser']['testimony_img']?>"/> </div>
+              <?php echo $testimony['BetaUser']['testimony'];?>
+              <div class="clearfix"></div>
+            </div>
+         <?php
+         $active_class = ''; 
+		}?>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="signup" class="wrap newsletter">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <p class="note">Se parte de nuestro equipo <strong>Beta-tester</strong>!</p>
+      </div>
+      <div class="col-sm-6">
+        <form id="newsletter" class="form-inline" role="form" method='post' action='BetaUsers/addFromLanding'>
+          <div class="form-group">
+            <label class="sr-only" for="email">Tu Correo</label>
+            <input type="email" id="email" class="form-control" placeholder="Introduce tu correo" name='data[BetaUser][email]'>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer" class="wrap footer">
+  <footer class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="logo"><img src="img/infobot/SHAPPS.png"/></h1>
+        <p class="social"> 
+        <a class="btn btn-xs btn-default btn-icon btn-round btn-stroke" target="_blank" href='https://www.facebook.com/SheepHeadApps'><i class="icon-facebook"></i></a> 
+        <a class="btn btn-xs btn-default btn-icon btn-round btn-stroke" target="_blank" href='https://twitter.com/InfobotApp'><i class="icon-twitter"></i></a> 
+<!--         <a class="btn btn-xs btn-default btn-icon btn-round btn-stroke"><i class="icon-google-plus"></i></a>  -->
+<!--         <a class="btn btn-xs btn-default btn-icon btn-round btn-stroke"><i class="icon-pinterest"></i></a>  -->
+        </p>
+        <p>&copy; 2014</p>
+      </div>
+    </div>
+  </footer>
+</div>

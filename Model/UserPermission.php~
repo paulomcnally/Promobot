@@ -16,7 +16,7 @@ class UserPermission extends AppModel {
     public $name = 'acos';
     
        public function getAcos(){
-            $sql = 'SELECT id,alias,parent_id FROM promodb.acos;';
+            $sql = 'SELECT id,alias,parent_id FROM shdb.acos;';
             //$sql = 'SELECT alias FROM shdb.acos where parent_id = 1;';
             return $this->query($sql);
        }

@@ -9,5 +9,6 @@
 	<ul>
 		<li><?php echo $this->Html->link(__('Usuarios'), array('controller' => 'users', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('Negocios'), array('controller' => 'businesses', 'action' => 'index')); ?> </li>
+                <li><?php echo $this->Html->link(__('Promociones'), array('controller' => 'promotions', 'action' => 'index')); ?> </li>
 	</ul>
 </div>

@@ -71,8 +71,9 @@ class BusinessesController extends AppController {
 				$i = 0;
 				foreach($images as $image){
 					$imageUpload = $fileComponent->uploadFile($image['name'], $path);
-					if($imageUpload)
+					if($imageUpload){
 						$this->request->data['Image'][$i]['name'] = $path.DS.$imageUpload;
+                                        }
 					else{
 						$mensaje .= 'La imagen '.$imageUpload.' no pudo ser guardada, renombrela e intente de nuevo';
 						unset($this->request->data['Image'][$i]);
@@ -83,8 +84,9 @@ class BusinessesController extends AppController {
 			$logo = $this->data['Business']['logo'];
 			$logoUpload = $fileComponent->uploadFile($logo, $path);
 
-			if($logoUpload)
+			if($logoUpload){
 				$this->request->data['Business']['logo'] = $path.DS.$logoUpload;
+                        }
 			else{
 				$this->request->data['Business']['logo'] = '';
 				$mensaje .= 'El logo no pudo ser guardado, renombrarlo e intentar de nuevo.';
@@ -155,8 +157,9 @@ class BusinessesController extends AppController {
 				$i = 0;
 				foreach($images as $image){
 					$imageUpload = $fileComponent->uploadFile($image['name'], $path);
-					if($imageUpload)
+					if($imageUpload){
 						$this->request->data['Image'][$i]['name'] = $path.DS.$imageUpload;
+                                        }
 					else {
 						unset($this->request->data['Image'][$i]);
 						$mensaje .= 'La imagen '.$imageUpload.' no pudo ser guardada, renombrela e intente de nuevo';

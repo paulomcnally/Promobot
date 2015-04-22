@@ -166,10 +166,10 @@ function getCities(){
 	cities += '<option value="1">Managua</option>';
 	cities += '<option value="2">Granada</option>';
 	cities += '<option value="3">Masaya</option>';
-	cities += '<option value="4">Le�n</option>';
+	cities += '<option value="4">Le&oacute;n</option>';
 	cities += '<option value="5">Chinandega</option>';
 	cities += '<option value="6">Rivas</option>';
-	cities += '<option value="7">Estel�</option>';
+	cities += '<option value="7">Estel&iacute;</option>';
 	cities += '<option value="8">Matagalpa</option>';
 	cities += '<option value="9">Boaco</option>';
 	cities += '<option value="10">Chontales</option>';
@@ -187,19 +187,6 @@ function getCities(){
 function setHtmlChanges(object){
 	$(object).attr('value',$(object).val());
 }
-
-/*jQuery(document).ready(function ($) { //fire on DOM ready
-    $('img.catimg').click(function() {
-        alert( "Handler for .click() called." );
-    });
-
-    // Start binding events here...    
-        var nselect = $("<select id = \"BusinessCategory\" style = \"height: 350px;\" multiple = \"multiple\" name = \"data[Business][Category][]\"></select>"
-);
-
-nselect.appendTo(".selectcat");
-        
-});*/
 
 
 

@@ -1,5 +1,7 @@
 <?php echo $this->Html->css('default/style.min');?>
+<?php echo $this->Html->css('datepicker');?>
 <?php echo $this->Html->script(array('jquery','facebookgraph','business','json_procesador','jstree.min','knockout','arbol.manipulador'));?>
+<?php echo $this->Html->script('datepicker');?>
 <div class="businesses form">
 <?php echo $this->Form->create('Business', array('type' => 'file')); ?>
 	<fieldset>
@@ -124,6 +126,54 @@
 		?>
 		
 		</div>
+        <?php 
+            echo "Agregar Promoci&oacute;n: ".$this->Html->link($this->Html->image('style/add-button-md.png', array('alt' => 'Agegar Promo', 'style' => "width: 40px;")),'#/',array('style' =>'vertical-align: bottom; padding-left: 10px;', 'onclick' => 'addPromoDetail();','escape' => false));
+        ?>
+    <div id='promo-container'>
+        <?php 
+            $d = 0;
+            foreach ($promotions as $promotion){
+                $val = $promotion['Promotion'];
+                 switch ($val['active']){
+                        case '1':
+                            $radiobtn = '<input name="data[Promotion]['.$d.'][active]" id="Activa1" type="radio" value="'.$val['active'].'" checked="checked"><label for="Activa1">Si</label>' 
+                                     . '<input name="data[Promotion]['.$d.'][active]" id="Activa2" type="radio" value="0" ><label for="Activa2">No</label></fieldset>';
+                             break;
+                        case '0':
+                            $radiobtn = '<input name="data[Promotion]['.$d.'][active]" id="Activa1" type="radio" value="1"><label for="Activa1">Si</label>' 
+                                     . '<input name="data[Promotion]['.$d.'][active]" id="Activa2" type="radio" value="'.$val['active'].'" checked="checked"><label for="Activa2">No</label></fieldset>';
+                        default :
+                             break;
+                 }
+                    
+                echo '<div class="input text" id="Promo-'.$d.'">
+                        <input type="hidden" id="PromotionId'.$d.'" value="'.$val['id'].'" name="data[Promotion]['.$d.'][id]">
+                        <label for="Promotion">Promocion</label>
+                            <div class="input text">
+				<label for="BusinessDetailDireccion">Nombre</label>
+				<input name="data[Promotion]['.$d.'][name]" maxlength="100" id="PromotionName'.$d.'" type="text" value="'.$val['name'].'">
+                            </div>
+                     <div class="input textarea"><label for="PromoDescription">Descripcion</label>
+                            <textarea name="data[Promotion]['.$d.'][description]" rows="6" cols="30" id="Promotiondescription'.$d.'" >'.$val['description'].'</textarea></div>'
+                        . '<div class="input text"><label for="PromotionImage">Imagen</label>'
+                        . '<input name="data[Promotion]['.$d.'][image]" maxlength="100" id="PromoDetaildescription'.$d.'" type="text" value="'.$val['image'].'"></div>'
+                        . '<div class="input text"><label for="PromotionFechaInicio">Fecha inicio</label>'
+                        . '<input name="data[Promotion]['.$d.'][start_date]" maxlength="100" class="datepicker" id="PromotionFechaInicio'.$d.'" type="text" value="'.$val['start_date'].'"></div>'
+                        . '<div class="input text"><label for="PromotionFechaFin">Fecha fin</label>'
+                        . '<input name="data[Promotion]['.$d.'][end_date]" maxlength="100" class="datepicker" id="PromotionFechaFin'.$d.'" type="text" value="'.$val['end_date'].'"></div>'
+                        . '<div class="input radio"><fieldset><legend>Activa</legend>'
+                        . $radiobtn. 
+                        '<div class="input text"><label for="PromotionDisplay'.$d.'">Display</label>'
+                        . '<input name="data[Promotion]['.$d.'][display_number]" maxlength="100" id="PromotionDisplay'.$d.'" type="text" value="'.$val['display_number'].'"></div>';
+                        
+                echo '</div>';
+                $d++;
+            }
+        ?>
+        
+    </div>
+
+         
 	<?php	
 		echo $this->Form->input('facebookId', array('type' => 'hidden'));
 		echo $this->Form->input('facebook_info', array('type' => 'hidden'));

@@ -19,7 +19,7 @@
 	</thead>
 	<tbody>
 	<?php foreach ($promotions as $promotion): ?>
-	<tr>
+	<tr> 
 		<td><?php echo h($promotion['Promotion']['id']); ?>&nbsp;</td>
 		<td><?php echo h($promotion['Promotion']['name']); ?>&nbsp;</td>
 		<td><?php echo h($promotion['Promotion']['description']); ?>&nbsp;</td>

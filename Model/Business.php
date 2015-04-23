@@ -123,7 +123,13 @@ class Business extends AppModel {
 			'Image' => array(
 					'className' => 'Image',
 					'foreignKey' => 'businesses_id'
-			)
+			),
+                        'Promotion' => array(
+					'className' => 'Promotion',
+					'foreignKey' => 'businesses_id',
+                                        'dependant' => true,
+					'exclusive' => true
+                        )
 	 );
 	
 

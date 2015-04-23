@@ -14,7 +14,7 @@ class PromotionsController extends AppController {
  * @var array
  */
 	public $components = array('Paginator');
-
+           
 /**
  * index method
  *
@@ -23,6 +23,7 @@ class PromotionsController extends AppController {
 	public function index() {
 		$this->Promotion->recursive = 0;
 		$this->set('promotions', $this->Paginator->paginate());
+		
 	}
 
 /**

@@ -20,13 +20,14 @@
 		echo $this->Form->input('wifi', array('type' => 'radio','options' => array('1' => 'Si', '0' => 'No'), 'default' => '0'));
 		echo $this->Form->input('isPro', array('legend' => 'Pro', 'type' => 'radio','options' => array('1' => 'Si', '0' => 'No'), 'default' => '0'));
 		echo $this->Form->input('games', array('legend' => 'Juegos', 'type' => 'radio','options' => array('1' => 'Si', '0' => 'No'), 'default' => '0'));
-/*
-		echo $this->Form->input('Category.Category', array(
+
+/*		echo $this->Form->input('Business.Category', array(
 				'label' => 'Categorias (Ctr+Seleccion multiple)',
 				'type' => 'select',
 				'multiple' => true,
 				'style' => 'height: 350px;'
 		));*/
+             
       ?>
     <h3>Categorias</h3>
 
@@ -50,19 +51,48 @@
         </div>
     </div>	
         
-      <?php
+        <?php
 		echo $this->Form->input('users_id',array('label' => 'Usuario'));
 		
 		echo "Agregar Detalle: ".$this->Html->link($this->Html->image('style/add-button-md.png', array('alt' => 'Agegar Detalle', 'style' => "width: 40px;")),'#/',array('style' =>'vertical-align: bottom; padding-left: 10px;', 'onclick' => 'addBusinessDetail();','escape' => false));
+
 	?>
 		<div id='detail-container'></div>
+                
+        <!--test promotions code -->
+       
 	<?php
 		
 		echo $this->Form->input('facebookId', array('type' => 'hidden'));
 		echo $this->Form->input('facebook_info', array('type' => 'hidden'));
 	?>
+        
+        <?php 
+            echo "Agregar Promoci&oacute;n: ".$this->Html->link($this->Html->image('style/add-button-md.png', array('alt' => 'Agegar Promo', 'style' => "width: 40px;")),'#/',array('style' =>'vertical-align: bottom; padding-left: 10px;', 'onclick' => 'addPromoDetail();','escape' => false));
+        ?>
+        <div id='promo-container'></div>
+
 	</fieldset>
+        
+    
 <?php echo $this->Form->end(__('Submit')); ?>
+<!--
+<?php //echo $this->Form->create('Promotion', array('type' => 'file')); ?>
+    <fieldset>
+		<legend><?php //echo __('Nueva Promocion'); ?></legend>
+     <?php
+           /* echo $this->Form->input('name');
+            echo $this->Form->input('description');
+            echo $this->Form->input('image');
+            echo $this->Form->input('start_date');
+            echo $this->Form->input('end_date');
+            echo $this->Form->input('active');
+            echo $this->Form->input('display_number');
+           // echo $this->Form->input('Promotion.created');
+           // echo $this->Form->input('Promotion.modified');*/
+        ?>
+    </fieldset>           
+<?php// echo $this->Form->end(__('Submit')); ?>-->
 </div>
 <div class="actions">
 	<h3><?php echo __('Menu'); ?></h3>

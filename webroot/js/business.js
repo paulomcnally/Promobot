@@ -100,7 +100,7 @@ function addBusinessDetail(){
 	newDetail += '<a onclick="removeBusinessDetail(this);" style="vertical-align: bottom; padding-left: 10px;"';
 	newDetail += ' href="#/"><img style="width: 40px;" alt="Remover Detalle" src="/img/style/minus-button-md.png"></a></div>';
 	//var html = $('#detail-container').html();
-	//html = html + newDetail;
+	//html = html + newDetail;  
 	$('#detail-container').append(newDetail);
 	detailCounter++;
 
@@ -188,5 +188,42 @@ function setHtmlChanges(object){
 	$(object).attr('value',$(object).val());
 }
 
+function addPromoDetail(){
+    setCounter();
+
+	var newDetail = '<div class="input text" id="promo-'+detailCounter+'"><label for="PromoDetail">Promoci&oacute;n</label>';
+	newDetail += '<div class="input text"><label for="PromoDetailDireccion">Nombre</label>';
+	newDetail += '<input name="data[Promotion]['+detailCounter+'][name]" onblur="setHtmlChanges(this);" maxlength="100" id="PromoDetailname'+detailCounter+'" type="text"></div>';
+	//newDetail += 'Agregar Telefono: <a href="#/" style="vertical-align: bottom; padding-left: 10px;" id="AddPhone-'+detailCounter+'" onclick="addPhoneNumber('+detailCounter+');">';
+	//newDetail += '<img src="/img/style/add-button-md.png" alt="Agegar Telefono" style="width: 40px;"></a>';
+        newDetail += '<div class="input textarea"><label for="PromoDescription">Descripcion</label>';
+        newDetail += '<textarea name="data[Promotion]['+detailCounter+'][description]" onblur="setHtmlChanges(this);" rows="6" cols="30" id="PromoDetaildescription'+detailCounter+'"></textarea></div>';
+        newDetail += '<div class="input text"><label for="PromoDetailDireccion">Imagen</label>';
+        newDetail += '<input name="data[Promotion]['+detailCounter+'][image]" onblur="setHtmlChanges(this);" maxlength="100" id="PromoDetaildescription'+detailCounter+'" type="text"></div>';
+        newDetail += '<div class="input text"><label for="PromoDetailDireccion">Fecha inicio</label>';
+        newDetail += '<input name="data[Promotion]['+detailCounter+'][start_date]" onblur="setHtmlChanges(this);" maxlength="100" id="PromoDetaildescription'+detailCounter+'" type="date"></div>';
+        newDetail += '<div class="input text"><label for="PromoDetailDireccion">Fecha fin</label>';
+        newDetail += '<input name="data[Promotion]['+detailCounter+'][end_date]" onblur="setHtmlChanges(this);" maxlength="100" id="PromoDetaildescription'+detailCounter+'" type="date"></div>';
+        newDetail += '<div class="input text"><label for="PromoDetailDireccion">Activa</label>';
+        //newDetail += '<input name="data[Promotion]['+detailCounter+'][active]" onblur="setHtmlChanges(this);" id="PromoDetaildescription'+detailCounter+'" type="radio" value="1" checked="checked">';
+        newDetail += '<label for="Activa1">Si</label>';
+        newDetail += '<input name="data[Promotion]['+detailCounter+'][active]" onblur="setHtmlChanges(this);" id="Activo1" type="radio" value="1" checked="checked">';
+        newDetail += '<label for="Activa2">No</label>';
+        newDetail += '<input name="data[Promotion]['+detailCounter+'][active]" onblur="setHtmlChanges(this);" id="Activo2" type="radio" value="0"></div>';
+        newDetail += '<div class="input text"><label for="PromoDetailDireccion">Display</label>';
+        newDetail += '<input name="data[Promotion]['+detailCounter+'][display_number]" onblur="setHtmlChanges(this);" maxlength="100" id="PromoDetaildescription'+detailCounter+'" type="text"></div>';
+	//var html = $('#detail-container').html();
+	//html = html + newDetail;  
+	$('#promo-container').append(newDetail);
+	detailCounter++;
+
+	return detailCounter - 1;
+}
+
+function setCounter(){
+    	$("#promo-container").children().each(function(i, object){
+		detailCounter++;
+	});
+}
 
 

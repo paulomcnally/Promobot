@@ -41,7 +41,7 @@ class Promotion extends AppModel {
  * @var array
  */
 	public $belongsTo = array(
-		'Business' => array(
+		'Businesses' => array(
 			'className' => 'Businesses',
 			'foreignKey' => 'businesses_id',
 			'conditions' => '',

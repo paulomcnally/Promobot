@@ -60,8 +60,9 @@ class BusinessesController extends AppController {
  * @return void
  */
 	public function add() {
+                $this->loadModel('Promotion');
 		if ($this->request->is('post')) {
-			//var_dump($this->request->data);
+			//var_dump($this->request->data('Promotion'));
 			//exit();
 			$path = "business";
 			$fileComponent = $this->Components->load('File');
@@ -101,6 +102,21 @@ class BusinessesController extends AppController {
 				$mensaje .= 'El negocio no pudo ser guardado.';
 				$this->Session->setFlash(__($mensaje));
 			}
+                       /* if($this->request->data('Promotion')){
+                            echo 'estamos en promocion';
+                            exit();
+                        }
+                            
+                        $this->Promotion->create();
+                        if($this->Promotion->save($this->request->data)){
+                        	$mensaje .= 'la promocion fue guardado.';
+				$this->Session->setFlash(__($mensaje));
+				$this->redirect(array('action' => 'index'));
+			} else {
+				$mensaje .= 'la promocion no pudo ser guardado.';
+				$this->Session->setFlash(__($mensaje));
+			}*/
+                        
 		}
         //Codigo para mostrar categorias
         
@@ -219,17 +235,23 @@ class BusinessesController extends AppController {
             $categories = $this->Business->Category->find('list',$options); 
         }
 
-		//fin codigo añadido
+        //fin codigo añadido
 		$users = $this->Business->User->find('list');
 		$options = array('conditions' => array('businesses_id' => $id));
 		$details = $this->Business->BusinessDetail->find('all',$options);
 		$images = $this->Business->Image->find('all',$options);
 		$cities = $this->Business->BusinessDetail->City->find('all');
+                $promotions = $this->Business->Promotion->find('all',$options);
+                foreach ($promotions as &$promotion){
+			unset($promotion['Businesses']);
+		}
+               //var_dump($promotions);
+               //exit();
 		foreach ($details as &$detail){
 			unset($detail['Business']);
 			unset($detail['City']);
 		}
-		$this->set(compact('categories', 'users', 'details', 'cities', 'images','parentCategories'));
+		$this->set(compact('categories', 'users', 'details', 'cities', 'images','parentCategories','promotions'));
 		//cambio añadido:
 	    $options = array('conditions' => array('Business.' . $this->Business->primaryKey => $id));
 		$this->set('business', $this->Business->find('first', $options));

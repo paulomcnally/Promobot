@@ -77,6 +77,6 @@ class PagesController extends AppController {
 	 * Main infobot app page
 	 */
 	public function promobot(){
-		$this->layout = 'promobot';
+		$this->layout = 'default';
 	}
 }

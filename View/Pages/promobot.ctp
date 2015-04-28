@@ -1,3 +1,1 @@
-<div>
-<h1>Home Previsional de Promobot backend</h1>
-</div>
+<?php echo "<div> <h1>Home Previsional de Promobot backend</h1></div>"; ?>

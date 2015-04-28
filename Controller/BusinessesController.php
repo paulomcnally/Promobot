@@ -242,7 +242,7 @@ class BusinessesController extends AppController {
         }
 
         //fin codigo añadido
-		$users = $this->Business->User->find('list');
+            	$users = $this->Business->User->find('list');
 		$options = array('conditions' => array('businesses_id' => $id));
 		$details = $this->Business->BusinessDetail->find('all',$options);
 		$images = $this->Business->Image->find('all',$options);

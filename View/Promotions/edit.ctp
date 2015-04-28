@@ -1,18 +1,25 @@
 <div class="promotions form">
-<?php echo $this->Form->create('Promotion'); ?>
+<?php echo $this->Form->create('Promotion',array('type' => 'file')); ?>
 	<fieldset>
 		<legend><?php echo __('Edit Promotion'); ?></legend>
 	<?php
 		echo $this->Form->input('id');
 		echo $this->Form->input('name');
 		echo $this->Form->input('description');
-		echo $this->Form->input('businesses_id');
-		echo $this->Form->input('image');
+		echo $this->Form->input('businesses_id',array('type' => 'hidden'));
+		echo $this->Form->input('image',array('type' => 'file'));
+                echo $this->Html->image($currentPromo['Promotion']['image'], array('alt' => $currentPromo['Promotion']['image'], 'style' => "width: 100px;")); 
 		echo $this->Form->input('start_date');
 		echo $this->Form->input('end_date');
-		echo $this->Form->input('active');
+                echo $this->Form->input('active', array('type' => 'radio','options' => array('1' => 'Si', '0' => 'No'), 'default' => '0'));
 		echo $this->Form->input('display_number');
-		echo $this->Form->input('PromotionDetail');
+		//echo $this->Form->input('PromotionDetail');
+                echo $this->Form->input('PromotionDetail', array(
+				'label' => 'Sucursales(Ctr+Seleccion multiple)',
+				'type' => 'select',
+				'multiple' => true,
+				'style' => 'height: 350px;'
+		));
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>

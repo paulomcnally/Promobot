@@ -16,7 +16,7 @@
             ],
             "fnCreatedRow": function(nRow, aData, iDataIndex){
             	$('td:eq(1)', nRow).html('<a href="/users/edit/'+aData.User.id+'">'+aData.User.full_name+'</a>');
-            	$('td:eq(4)', nRow).html('<a href="/businesses/view/'+aData.Business.id+'">Ver</a><a href="/businesses/edit/'+aData.Business.id+'">Editar</a><form method="post" style="display:none;" id="post_543b18961ae08" name="post_'+aData.Business.id+'" action="/businesses/delete/'+aData.Business.id+'"><input type="hidden" value="POST" name="_method"></form><a onclick="javascript:if(confirm(\'Seguro que deseas borar?\')) { document.post_'+aData.Business.id+'.submit(); } event.returnValue = false; return false;" href="#">Borrar</a>');
+            	$('td:eq(4)', nRow).html('<a href="/businesses/view/'+aData.Business.id+'">Ver</a><a href="/businesses/edit/'+aData.Business.id+'">Editar</a><a href="/promotions/index/'+aData.Business.id+'">Promociones</a><form method="post" style="display:none;" id="post_543b18961ae08" name="post_'+aData.Business.id+'" action="/businesses/delete/'+aData.Business.id+'"><input type="hidden" value="POST" name="_method"></form><a onclick="javascript:if(confirm(\'Seguro que deseas borar?\')) { document.post_'+aData.Business.id+'.submit(); } event.returnValue = false; return false;" href="#">Borrar</a>');
             }
         });
     });

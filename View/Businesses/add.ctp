@@ -66,33 +66,10 @@
 		echo $this->Form->input('facebookId', array('type' => 'hidden'));
 		echo $this->Form->input('facebook_info', array('type' => 'hidden'));
 	?>
-        
-        <?php 
-            echo "Agregar Promoci&oacute;n: ".$this->Html->link($this->Html->image('style/add-button-md.png', array('alt' => 'Agegar Promo', 'style' => "width: 40px;")),'#/',array('style' =>'vertical-align: bottom; padding-left: 10px;', 'onclick' => 'addPromoDetail();','escape' => false));
-        ?>
-        <div id='promo-container'></div>
-
-	</fieldset>
-        
+        </fieldset>
     
 <?php echo $this->Form->end(__('Submit')); ?>
-<!--
-<?php //echo $this->Form->create('Promotion', array('type' => 'file')); ?>
-    <fieldset>
-		<legend><?php //echo __('Nueva Promocion'); ?></legend>
-     <?php
-           /* echo $this->Form->input('name');
-            echo $this->Form->input('description');
-            echo $this->Form->input('image');
-            echo $this->Form->input('start_date');
-            echo $this->Form->input('end_date');
-            echo $this->Form->input('active');
-            echo $this->Form->input('display_number');
-           // echo $this->Form->input('Promotion.created');
-           // echo $this->Form->input('Promotion.modified');*/
-        ?>
-    </fieldset>           
-<?php// echo $this->Form->end(__('Submit')); ?>-->
+
 </div>
 <div class="actions">
 	<h3><?php echo __('Menu'); ?></h3>

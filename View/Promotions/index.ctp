@@ -35,7 +35,8 @@
 		<td><?php echo h($promotion['Promotion']['modified']); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $promotion['Promotion']['id'])); ?>
-			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $promotion['Promotion']['id'])); ?>
+			<!--echo $this->Html->link(__('Edit'), array('action' => 'edit', $promotion['Promotion']['id'])); -->
+                        <?php echo $this->Html->link(__('Edit'), array('action' => 'edit/'.  $promotion['Promotion']['id'] . '/' . $id)); ?>
 			<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $promotion['Promotion']['id']), array('confirm' => __('Are you sure you want to delete # %s?', $promotion['Promotion']['id']))); ?>
 		</td>
 	</tr>
@@ -59,7 +60,7 @@
 <div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>
-		<li><?php echo $this->Html->link(__('New Promotion'), array('action' => 'add')); ?></li>
+		<li><?php echo $this->Html->link(__('New Promotion'), array('action' => 'add/'. $id)); ?></li>
 		<li><?php echo $this->Html->link(__('List Businesses'), array('controller' => 'businesses', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Businesses'), array('controller' => 'businesses', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Business Details'), array('controller' => 'business_details', 'action' => 'index')); ?> </li>

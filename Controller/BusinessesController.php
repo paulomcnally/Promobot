@@ -62,16 +62,18 @@ class BusinessesController extends AppController {
 	public function add() {
                 $this->loadModel('Promotion');
 		if ($this->request->is('post')) {
+                        //var_dump($this->data['Image'][0]['name']);
+                        //exit();
 			//var_dump($this->request->data('Promotion'));
 			//exit();
 			$path = "business";
 			$fileComponent = $this->Components->load('File');
 			$mensaje = "";
-			if(isset($this->data['Image'])){
+                            if(isset($this->data['Image'])){
 				$images = $this->data['Image'];
 				$i = 0;
 				foreach($images as $image){
-					$imageUpload = $fileComponent->uploadFile($image['name'], $path);
+					$imageUpload = $fileComponent->uploadFile($image, $path);
 					if($imageUpload){
 						$this->request->data['Image'][$i]['name'] = $path.DS.$imageUpload;
                                         }
@@ -83,6 +85,8 @@ class BusinessesController extends AppController {
 				}
 			}
 			$logo = $this->data['Business']['logo'];
+                        //var_dump($logo['name']);
+                        //exit();
 			$logoUpload = $fileComponent->uploadFile($logo, $path);
 
 			if($logoUpload){
@@ -156,10 +160,10 @@ class BusinessesController extends AppController {
 		}
 		
 		$options = array('conditions' => array('Business.' . $this->Business->primaryKey => $id));
-        $currentBusiness = $this->Business->find('first', $options);
+                $currentBusiness = $this->Business->find('first', $options);
 		if ($this->request->is('post') || $this->request->is('put')) {
             //var_dump($this->request->data);
-			//exit();
+		//	exit();
 			$path = "business";
 			$fileComponent = $this->Components->load('File');
 			//$currentBusiness = $this->Business->find('first', $options);
@@ -167,12 +171,14 @@ class BusinessesController extends AppController {
 			$mensaje = "";
 
 			//Check if business image is set and replace
+                        //var_dump($this->data['Image']);
+                        //exit();
 			if(isset($this->data['Image'])){
 				$images = $this->data['Image'];
 				$fileComponent = $this->Components->load('File');
 				$i = 0;
 				foreach($images as $image){
-					$imageUpload = $fileComponent->uploadFile($image['name'], $path);
+					$imageUpload = $fileComponent->uploadFile($image, $path);
 					if($imageUpload){
 						$this->request->data['Image'][$i]['name'] = $path.DS.$imageUpload;
                                         }

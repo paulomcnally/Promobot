@@ -23,7 +23,7 @@
 		</dd>
 		<dt><?php echo __('Image'); ?></dt>
 		<dd>
-			<?php echo h($promotion['Promotion']['image']); ?>
+                        <?php echo $this->Html->image($promotion['Promotion']['image'], array('alt' => $promotion['Promotion']['image'], 'style' => "width: 40px;")); ?>
 			&nbsp;
 		</dd>
 		<dt><?php echo __('Start Date'); ?></dt>

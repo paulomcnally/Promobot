@@ -9,6 +9,7 @@ App::uses('AppModel', 'Model');
 class BusinessDetail extends AppModel {
 
 	private $_business_delete_id;
+        public $displayField = 'direccion';
 /** 
  * Validation rules
  *

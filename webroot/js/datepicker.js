@@ -27,9 +27,8 @@ function chooseDate(e) {
     createCalendar(div, new Date(targ.getAttribute('date')));
     return;
   }
-  var dt = targ.getAttribute('date');
   
-  textbox.value = parseToMysqlDate(targ.getAttribute('date')); // Set the selected date
+  textbox.value = parseToYmd(targ.getAttribute('date')); // Set the selected date; in
   //textbox.value = parseToMisqlDate(dt);
   div.parentNode.removeChild(div); // Remove the dropdown box now
 }
@@ -55,8 +54,8 @@ function parseMyDate(d) {
   if (m<0) return new Date(d); // Couldn't find the month
   return new Date(a[2],m,a[0],0,0,0,0);
 }
-
-function parseToMysqlDate(d) { //convert to Format yyyy-mm-dd use in mysql database datetime, by example
+//Parse a date in YYYY-MM-DD format
+function parseToYmd(d) { //convert to Format yyyy-mm-dd use in mysql database datetime, by example
   if (d=="") return new Date('NotADate'); // For Safari
   var a = d.split('-');
   var rd = '';
@@ -73,7 +72,6 @@ function parseToMysqlDate(d) { //convert to Format yyyy-mm-dd use in mysql datab
   if (a[1]=='Oct') m='10';
   if (a[1]=='Nov') m='11';
   if (a[1]=='Dec') m='12';
-  //if (a.length!=3) return new Date(d); // Missing 2 dashes
   rd += a[2] + '-' + m + '-' + a[0];
   return rd;
 }

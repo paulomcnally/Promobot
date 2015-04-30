@@ -62,17 +62,7 @@ class PromobotsController extends AppController {
 				'Business.modified >=' => $current_date)
 		);
 		$business = $this->Business->find('all',$option);
-                /*$new_categories = $this->Category->find('all',array(
-				'conditions' => array(
-						'Category.created >' => $current_date
-				)
-		));
-		$categories = $this->Category->find('all',array(
-				'conditions' => array(
-						'Category.created <' => $current_date,
-						'Category.modified >' => $current_date
-				)
-		));*/
+                
 		$option = array('conditions' => array(
 				'BusinessDetail.created >' => $current_date)
 		);
@@ -84,18 +74,7 @@ class PromobotsController extends AppController {
 		$business_details = $this->BusinessDetail->find('all',$option);
 		$business_details = array_merge($business_details, $new_business_details);
                 
-                /*$new_cities = $this->City->find('all',array(
-				'conditions' => array(
-					'City.created >' => $current_date
-				)
-		));
-		$cities = $this->City->find('all',array(
-				'conditions' => array(
-					'City.created <' => $current_date,
-					'City.modified >' => $current_date
-				)
-		));*/
-                //$this->set(compact('new_business','business','new_categories','categories','business_details','new_cities','cities'));
+             
                 $this->set(compact('new_business','business','business_details'));
         }
         

@@ -24765,3 +24765,633 @@ Request URL: /img/0
 Stack Trace:
 #0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-04-29 10:07:51 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-29 10:07:51 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-29 10:07:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-29 10:07:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-29 10:07:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-29 10:36:02 Error: Fatal Error (64): Cannot use [] for unsetting in [/var/www/promobot.local/cakephp_promobot/app/Controller/PromobotsController.php, line 49]
+2015-04-29 10:36:02 Error: [FatalErrorException] Cannot use [] for unsetting
+Request URL: /promobots/getBusinesses.json
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', '/var/www/promob...', 49)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', '/var/www/promob...', 49, Array)
+#2 /var/www/promobot.local/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', '/var/www/promob...', 49, Array)
+#3 /var/www/promobot.local/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-29 13:29:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-29 13:29:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-29 13:29:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-29 13:29:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-29 13:29:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-29 13:29:22 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-29 13:35:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/0
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-29 13:46:29 Error: Fatal Error (1): Cannot unset string offsets in [/var/www/promobot.local/cakephp_promobot/app/Controller/PromobotsController.php, line 48]
+2015-04-29 13:46:29 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /promobots/getBusinesses.json
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/var/www/promob...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/var/www/promob...', 48, Array)
+#2 /var/www/promobot.local/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/var/www/promob...', 48, Array)
+#3 /var/www/promobot.local/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-29 13:52:53 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Promotion.from' in 'where clause'
+Request URL: /promobots/getPromotions.json
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Promoti...', Array)
+#2 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Promoti...', Array, Array)
+#3 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Promoti...', false)
+#4 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Promotion), Array)
+#5 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#6 /var/www/promobot.local/cakephp_promobot/app/Controller/PromobotsController.php(20): Model->find('all', Array)
+#7 [internal function]: PromobotsController->getPromotions()
+#8 /var/www/promobot.local/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromobotsController), Array)
+#9 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#11 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-29 13:55:17 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Promotion.to' in 'order clause'
+Request URL: /promobots/getPromotions.json
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Promoti...', Array)
+#2 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Promoti...', Array, Array)
+#3 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Promoti...', false)
+#4 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Promotion), Array)
+#5 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#6 /var/www/promobot.local/cakephp_promobot/app/Controller/PromobotsController.php(20): Model->find('all', Array)
+#7 [internal function]: PromobotsController->getPromotions()
+#8 /var/www/promobot.local/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromobotsController), Array)
+#9 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#11 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-29 13:55:18 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Promotion.to' in 'order clause'
+Request URL: /promobots/getPromotions.json
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Promoti...', Array)
+#2 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Promoti...', Array, Array)
+#3 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Promoti...', false)
+#4 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Promotion), Array)
+#5 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#6 /var/www/promobot.local/cakephp_promobot/app/Controller/PromobotsController.php(20): Model->find('all', Array)
+#7 [internal function]: PromobotsController->getPromotions()
+#8 /var/www/promobot.local/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromobotsController), Array)
+#9 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#11 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-29 14:16:34 Error: Fatal Error (1): Cannot unset string offsets in [/var/www/promobot.local/cakephp_promobot/app/Controller/PromobotsController.php, line 29]
+2015-04-29 14:16:34 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /promobots/getPromotions.json
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Cannot unset st...', '/var/www/promob...', 29)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', '/var/www/promob...', 29, Array)
+#2 /var/www/promobot.local/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', '/var/www/promob...', 29, Array)
+#3 /var/www/promobot.local/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-29 15:25:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Business.id' in 'where clause'
+Request URL: /promobots/getBusinesses.json
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Promoti...', Array)
+#2 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Promoti...', Array, Array)
+#3 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(1444): DboSource->fetchAll('SELECT `Promoti...', false)
+#4 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(1278): DboSource->_fetchHasMany(Object(Business), 'SELECT `Promoti...', Array)
+#5 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(Business), Object(Promotion), 'hasMany', 'Promotion', Array, Array, true, Array, 0, Array)
+#6 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Business), Array)
+#7 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#8 /var/www/promobot.local/cakephp_promobot/app/Controller/PromobotsController.php(45): Model->find('all', Array)
+#9 [internal function]: PromobotsController->getBusinesses()
+#10 /var/www/promobot.local/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromobotsController), Array)
+#11 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#13 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-04-29 15:25:52 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Business.id' in 'where clause'
+Request URL: /promobots/getBusinesses.json
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Promoti...', Array)
+#2 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Promoti...', Array, Array)
+#3 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(1444): DboSource->fetchAll('SELECT `Promoti...', false)
+#4 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(1278): DboSource->_fetchHasMany(Object(Business), 'SELECT `Promoti...', Array)
+#5 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(Business), Object(Promotion), 'hasMany', 'Promotion', Array, Array, true, Array, 0, Array)
+#6 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Business), Array)
+#7 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#8 /var/www/promobot.local/cakephp_promobot/app/Controller/PromobotsController.php(45): Model->find('all', Array)
+#9 [internal function]: PromobotsController->getBusinesses()
+#10 /var/www/promobot.local/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromobotsController), Array)
+#11 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#13 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-04-29 15:25:53 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Business.id' in 'where clause'
+Request URL: /promobots/getBusinesses.json
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Promoti...', Array)
+#2 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Promoti...', Array, Array)
+#3 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(1444): DboSource->fetchAll('SELECT `Promoti...', false)
+#4 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(1278): DboSource->_fetchHasMany(Object(Business), 'SELECT `Promoti...', Array)
+#5 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(Business), Object(Promotion), 'hasMany', 'Promotion', Array, Array, true, Array, 0, Array)
+#6 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Business), Array)
+#7 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#8 /var/www/promobot.local/cakephp_promobot/app/Controller/PromobotsController.php(45): Model->find('all', Array)
+#9 [internal function]: PromobotsController->getBusinesses()
+#10 /var/www/promobot.local/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromobotsController), Array)
+#11 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#13 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-04-29 15:25:54 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Business.id' in 'where clause'
+Request URL: /promobots/getBusinesses.json
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Promoti...', Array)
+#2 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Promoti...', Array, Array)
+#3 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(1444): DboSource->fetchAll('SELECT `Promoti...', false)
+#4 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(1278): DboSource->_fetchHasMany(Object(Business), 'SELECT `Promoti...', Array)
+#5 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(Business), Object(Promotion), 'hasMany', 'Promotion', Array, Array, true, Array, 0, Array)
+#6 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Business), Array)
+#7 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#8 /var/www/promobot.local/cakephp_promobot/app/Controller/PromobotsController.php(45): Model->find('all', Array)
+#9 [internal function]: PromobotsController->getBusinesses()
+#10 /var/www/promobot.local/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromobotsController), Array)
+#11 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#13 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-04-29 15:42:27 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'promodb.Promotion' doesn't exist
+Request URL: /promobots/getBusinesses.json
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Busines...', Array)
+#2 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Busines...', Array, Array)
+#3 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Busines...', false)
+#4 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Business), Array)
+#5 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#6 /var/www/promobot.local/cakephp_promobot/app/Model/Business.php(175): Model->find('all', Array)
+#7 /var/www/promobot.local/cakephp_promobot/app/Controller/PromobotsController.php(46): Business->getBusinessByPromotion()
+#8 [internal function]: PromobotsController->getBusinesses()
+#9 /var/www/promobot.local/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromobotsController), Array)
+#10 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#12 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-29 15:44:52 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'promodb.Promotion' doesn't exist
+Request URL: /promobots/getBusinesses.json
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Busines...', Array)
+#2 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Busines...', Array, Array)
+#3 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Busines...', false)
+#4 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Business), Array)
+#5 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#6 /var/www/promobot.local/cakephp_promobot/app/Controller/PromobotsController.php(53): Model->find('all', Array)
+#7 [internal function]: PromobotsController->getBusinesses()
+#8 /var/www/promobot.local/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromobotsController), Array)
+#9 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#11 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-29 15:44:53 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'promodb.Promotion' doesn't exist
+Request URL: /promobots/getBusinesses.json
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Busines...', Array)
+#2 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Busines...', Array, Array)
+#3 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Busines...', false)
+#4 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Business), Array)
+#5 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#6 /var/www/promobot.local/cakephp_promobot/app/Controller/PromobotsController.php(53): Model->find('all', Array)
+#7 [internal function]: PromobotsController->getBusinesses()
+#8 /var/www/promobot.local/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromobotsController), Array)
+#9 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#11 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-29 15:50:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Promotion.businesses_id' in 'where clause'
+Request URL: /promobots/getBusinesses.json
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Busines...', Array)
+#2 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Busines...', Array, Array)
+#3 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Busines...', false)
+#4 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Business), Array)
+#5 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#6 /var/www/promobot.local/cakephp_promobot/app/Controller/PromobotsController.php(45): Model->find('all', Array)
+#7 [internal function]: PromobotsController->getBusinesses()
+#8 /var/www/promobot.local/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromobotsController), Array)
+#9 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#11 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-29 15:54:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Promotion.businesses_id' in 'where clause'
+Request URL: /promobots/getBusinesses.json
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Busines...', Array)
+#2 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Busines...', Array, Array)
+#3 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Busines...', false)
+#4 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Business), Array)
+#5 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#6 /var/www/promobot.local/cakephp_promobot/app/Controller/PromobotsController.php(45): Model->find('all', Array)
+#7 [internal function]: PromobotsController->getBusinesses()
+#8 /var/www/promobot.local/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromobotsController), Array)
+#9 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#11 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-29 16:32:12 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in on clause is ambiguous
+Request URL: /promobots/getBusinesses.json
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT * FROM b...', Array)
+#2 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT * FROM b...', Array, Array)
+#3 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('SELECT * FROM b...')
+#4 [internal function]: DboSource->query('SELECT * FROM b...')
+#5 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(3447): call_user_func_array(Array, Array)
+#6 /var/www/promobot.local/cakephp_promobot/app/Model/Business.php(167): Model->query('SELECT * FROM b...')
+#7 /var/www/promobot.local/cakephp_promobot/app/Controller/PromobotsController.php(47): Business->getBusinessPromotions()
+#8 [internal function]: PromobotsController->getBusinesses()
+#9 /var/www/promobot.local/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromobotsController), Array)
+#10 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#12 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-29 16:49:28 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'promodb.businesses_details' doesn't exist
+Request URL: /promobots/getBusinesses.json
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT direccio...', Array)
+#2 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT direccio...', Array, Array)
+#3 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('SELECT direccio...')
+#4 [internal function]: DboSource->query('SELECT direccio...')
+#5 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(3447): call_user_func_array(Array, Array)
+#6 /var/www/promobot.local/cakephp_promobot/app/Model/Business.php(171): Model->query('SELECT direccio...')
+#7 /var/www/promobot.local/cakephp_promobot/app/Controller/PromobotsController.php(44): Business->getBusinessPromotions()
+#8 [internal function]: PromobotsController->getBusinesses()
+#9 /var/www/promobot.local/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromobotsController), Array)
+#10 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#12 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-29 16:51:36 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous
+Request URL: /promobots/getBusinesses.json
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT id,direc...', Array)
+#2 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT id,direc...', Array, Array)
+#3 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('SELECT id,direc...')
+#4 [internal function]: DboSource->query('SELECT id,direc...')
+#5 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(3447): call_user_func_array(Array, Array)
+#6 /var/www/promobot.local/cakephp_promobot/app/Model/Business.php(171): Model->query('SELECT id,direc...')
+#7 /var/www/promobot.local/cakephp_promobot/app/Controller/PromobotsController.php(44): Business->getBusinessPromotions()
+#8 [internal function]: PromobotsController->getBusinesses()
+#9 /var/www/promobot.local/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromobotsController), Array)
+#10 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#12 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-29 16:52:38 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous
+Request URL: /promobots/getBusinesses.json
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT direccio...', Array)
+#2 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT direccio...', Array, Array)
+#3 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('SELECT direccio...')
+#4 [internal function]: DboSource->query('SELECT direccio...')
+#5 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(3447): call_user_func_array(Array, Array)
+#6 /var/www/promobot.local/cakephp_promobot/app/Model/Business.php(171): Model->query('SELECT direccio...')
+#7 /var/www/promobot.local/cakephp_promobot/app/Controller/PromobotsController.php(44): Business->getBusinessPromotions()
+#8 [internal function]: PromobotsController->getBusinesses()
+#9 /var/www/promobot.local/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromobotsController), Array)
+#10 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#12 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-29 16:52:39 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous
+Request URL: /promobots/getBusinesses.json
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT direccio...', Array)
+#2 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT direccio...', Array, Array)
+#3 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('SELECT direccio...')
+#4 [internal function]: DboSource->query('SELECT direccio...')
+#5 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(3447): call_user_func_array(Array, Array)
+#6 /var/www/promobot.local/cakephp_promobot/app/Model/Business.php(171): Model->query('SELECT direccio...')
+#7 /var/www/promobot.local/cakephp_promobot/app/Controller/PromobotsController.php(44): Business->getBusinessPromotions()
+#8 [internal function]: PromobotsController->getBusinesses()
+#9 /var/www/promobot.local/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromobotsController), Array)
+#10 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#12 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-29 16:52:39 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous
+Request URL: /promobots/getBusinesses.json
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT direccio...', Array)
+#2 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT direccio...', Array, Array)
+#3 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('SELECT direccio...')
+#4 [internal function]: DboSource->query('SELECT direccio...')
+#5 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(3447): call_user_func_array(Array, Array)
+#6 /var/www/promobot.local/cakephp_promobot/app/Model/Business.php(171): Model->query('SELECT direccio...')
+#7 /var/www/promobot.local/cakephp_promobot/app/Controller/PromobotsController.php(44): Business->getBusinessPromotions()
+#8 [internal function]: PromobotsController->getBusinesses()
+#9 /var/www/promobot.local/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromobotsController), Array)
+#10 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#12 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-29 16:52:40 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous
+Request URL: /promobots/getBusinesses.json
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT direccio...', Array)
+#2 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT direccio...', Array, Array)
+#3 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('SELECT direccio...')
+#4 [internal function]: DboSource->query('SELECT direccio...')
+#5 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(3447): call_user_func_array(Array, Array)
+#6 /var/www/promobot.local/cakephp_promobot/app/Model/Business.php(171): Model->query('SELECT direccio...')
+#7 /var/www/promobot.local/cakephp_promobot/app/Controller/PromobotsController.php(44): Business->getBusinessPromotions()
+#8 [internal function]: PromobotsController->getBusinesses()
+#9 /var/www/promobot.local/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromobotsController), Array)
+#10 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#12 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-29 16:52:40 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous
+Request URL: /promobots/getBusinesses.json
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT direccio...', Array)
+#2 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT direccio...', Array, Array)
+#3 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('SELECT direccio...')
+#4 [internal function]: DboSource->query('SELECT direccio...')
+#5 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(3447): call_user_func_array(Array, Array)
+#6 /var/www/promobot.local/cakephp_promobot/app/Model/Business.php(171): Model->query('SELECT direccio...')
+#7 /var/www/promobot.local/cakephp_promobot/app/Controller/PromobotsController.php(44): Business->getBusinessPromotions()
+#8 [internal function]: PromobotsController->getBusinesses()
+#9 /var/www/promobot.local/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromobotsController), Array)
+#10 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#12 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-29 17:02:48 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'name' in field list is ambiguous
+Request URL: /promobots/getBusinesses.json
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT name,fac...', Array)
+#2 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT name,fac...', Array, Array)
+#3 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('SELECT name,fac...')
+#4 [internal function]: DboSource->query('SELECT name,fac...')
+#5 /var/www/promobot.local/cakephp_promobot/lib/Cake/Model/Model.php(3447): call_user_func_array(Array, Array)
+#6 /var/www/promobot.local/cakephp_promobot/app/Model/Business.php(168): Model->query('SELECT name,fac...')
+#7 /var/www/promobot.local/cakephp_promobot/app/Controller/PromobotsController.php(44): Business->getBusinessPromotions()
+#8 [internal function]: PromobotsController->getBusinesses()
+#9 /var/www/promobot.local/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromobotsController), Array)
+#10 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#12 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-30 09:17:35 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-30 09:17:35 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-30 09:17:35 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-30 09:17:35 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-30 09:17:35 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-30 10:53:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/0
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-30 12:53:47 Error: [MissingViewException] View file "Promobots/get_update_data.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Promobots/get_update_data.ctp',
+)
+Request URL: /promobots/getUpdateData?params=%7B%22last_update%22%3A%222015%2F03%2F10%22%7D
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/promobot.local/cakephp_promobot/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/promobot.local/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#4 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-30 13:26:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/0
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-30 13:26:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/0
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-30 15:08:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/0
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-30 15:08:45 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-30 15:08:45 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-30 15:08:45 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-30 15:08:45 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-30 15:08:45 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

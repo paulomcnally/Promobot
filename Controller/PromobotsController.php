@@ -16,7 +16,7 @@ class PromobotsController extends AppController {
         public function getPromotions(){
             $this->loadModel('Promotion');
             
-            $options = array('conditions' => array('Promotion.start_date <' => date('Y-m-d H:i:s'),'Promotion.end_date >' => date('Y-m-d H:i:s'),'Promotion.Active' => '1'),'order' => array('Promotion.end_date DESC'));
+            $options = array('conditions' => array('Promotion.start_date <' => date('Y-m-d H:i:s'),'Promotion.end_date >' => date('Y-m-d H:i:s'),'Promotion.active' => '1'),'order' => array('Promotion.end_date DESC'));
             $promotions = $this->Promotion->find('all',$options);
             //var_dump($promotions);
             //exit();
@@ -29,11 +29,38 @@ class PromobotsController extends AppController {
                     unset($prm['active'],$prm['created'],$prm['modified'],$prm['start_date'],$prm['end_date']);
                 }
             }
-            
+            //var_dump($promotions);
+            //exit();
             $this->set(compact('promotions'));
             
         }
         
+        public function getUpdatePromotions(){
+            $params = $this->getRequestParams();
+            $this->loadModel('Promotion');
+            
+            if(isset($params['last_update']))
+            {
+                    $current_date = $params['last_update'];
+            }
+            else{
+                    $current_date = date('Y/m/d');
+            }
+ 
+            $new_promos = $this->Promotion->find('all',array(
+				'conditions' => array(
+				'Promotion.created >' => $current_date
+				)
+            ));
+            
+            $options = array('conditions' => array('Promotion.created <' => $current_date,'Promotion.modified >=' => $current_date,'Promotion.active' => '1'));
+            $promos = $this->Promotion->find('all',$options);
+            //var_dump($promos);
+            //exit();
+            $this->set(compact('promos','new_promos'));
+        }
+
+
         public function getUpdateData(){
             $params = $this->getRequestParams();
             //var_dump($params['last_update']);
@@ -63,6 +90,30 @@ class PromobotsController extends AppController {
 		);
 		$business = $this->Business->find('all',$option);
                 
+                $new_categories = $this->Category->find('all',array(
+				'conditions' => array(
+						'Category.created >' => $current_date
+				)
+		));
+                $categories = $this->Category->find('all',array(
+				'conditions' => array(
+						'Category.created <' => $current_date,
+						'Category.modified >' => $current_date
+				)
+		));
+                
+                $new_cities = $this->City->find('all',array(
+				'conditions' => array(
+					'City.created >' => $current_date
+				)
+		));
+		$cities = $this->City->find('all',array(
+				'conditions' => array(
+					'City.created <' => $current_date,
+					'City.modified >' => $current_date
+				)
+		));
+                
 		$option = array('conditions' => array(
 				'BusinessDetail.created >' => $current_date)
 		);
@@ -75,7 +126,7 @@ class PromobotsController extends AppController {
 		$business_details = array_merge($business_details, $new_business_details);
                 
              
-                $this->set(compact('new_business','business','business_details'));
+                $this->set(compact('new_business','business','business_details','new_cities','cities','categories','new_categories'));
         }
         
         public function beforeFilter() {

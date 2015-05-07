@@ -161,11 +161,6 @@ class Business extends AppModel {
 		));
 		return $this->find('all',$options);
 	}
-       
-       public function getBusinessPromotions(){
-           $sql = 'SELECT * FROM businesses INNER JOIN promotions ON businesses.id = promotions.businesses_id';
-           return $this->query($sql);   
-       }
 	
 	/**
 	 * (non-PHPdoc)

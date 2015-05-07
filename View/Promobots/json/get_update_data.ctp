@@ -41,6 +41,32 @@ foreach($business as $data){
 	array_push($response['business'], $data['Business']);
 }
 
+$response['new_categories'] = array();
+foreach($new_categories as $data){
+	$data['Category']['image'] = str_replace("categories/", "", $data['Category']['image']);
+	array_push($response["new_categories"],$data['Category']);
+}
+$response['categories'] = array();
+foreach($categories as $data){
+	$data['Category']['image'] = str_replace("categories/", "", $data['Category']['image']);
+	array_push($response["categories"],$data['Category']);
+}
+$response['new_cities'] = array();
+foreach($new_cities as $data){
+	array_push($response["new_cities"],$data['City']);
+}
+$response['cities'] = array();
+foreach($cities as $data){
+	array_push($response["cities"],$data['City']);
+}
+
+$response['businesses_cities'] = array();
+foreach($business_details as $data){
+	$detail['businesses_id'] = $data['BusinessDetail']['businesses_id'];
+	$detail['cities_id'] = $data['BusinessDetail']['cities_id'];
+	array_push($response['businesses_cities'], $detail);
+}
+
 $response['details'] = array();
 $detail = array();
 

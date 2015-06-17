@@ -56,6 +56,10 @@
 			<?php echo h($promotion['Promotion']['modified']); ?>
 			&nbsp;
 		</dd>
+                <dt><?php echo __('codigo QR'); ?></dt>
+                <dd>
+                    <?php echo $this->QR->crearQRfile('codigo QR') ?>
+                </dd>
 	</dl>
 </div>
 <div class="actions">

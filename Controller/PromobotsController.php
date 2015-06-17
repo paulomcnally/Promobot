@@ -14,6 +14,7 @@ class PromobotsController extends AppController {
         
         
         public function getPromotions(){
+            $params = $this->getRequestParams();
             $this->loadModel('Promotion');
             
             $options = array('conditions' => array('Promotion.start_date <' => date('Y-m-d H:i:s'),'Promotion.end_date >' => date('Y-m-d H:i:s'),'Promotion.active' => '1'),'order' => array('Promotion.end_date DESC'));
@@ -26,7 +27,7 @@ class PromobotsController extends AppController {
                     unset($promo['direccion'],$promo['version'],$promo['lat'],$promo['long'],$promo['businesses_id'],$promo['created'],$promo['modified'],$promo['cities_id']);
                 }
                 foreach($promotion as &$prm){
-                    unset($prm['active'],$prm['created'],$prm['modified'],$prm['start_date'],$prm['end_date']);
+                    unset($prm['created'],$prm['modified'],$prm['start_date'],$prm['end_date']);
                 }
             }
             //var_dump($promotions);
@@ -49,11 +50,11 @@ class PromobotsController extends AppController {
  
             $new_promos = $this->Promotion->find('all',array(
 				'conditions' => array(
-				'Promotion.created >' => $current_date
+				'Promotion.created > ' => $current_date
 				)
             ));
             
-            $options = array('conditions' => array('Promotion.created <' => $current_date,'Promotion.modified >=' => $current_date,'Promotion.active' => '1'));
+            $options = array('conditions' => array('Promotion.created < ' => $current_date,'Promotion.modified >= ' => $current_date,'Promotion.active' => '1'));
             $promos = $this->Promotion->find('all',$options);
             //var_dump($promos);
             //exit();
@@ -132,7 +133,8 @@ class PromobotsController extends AppController {
         public function beforeFilter() {
 		$this->log(json_encode($this->getRequestParams()),'debug');
 		parent::beforeFilter();
-		$this->Auth->login();   
+		$this->Auth->login();
+		$this->Auth->allow("getUpdaData.json");
 	}
 	
 	/**
@@ -140,11 +142,11 @@ class PromobotsController extends AppController {
 	 * @return mixed
 	 */
 	private function getRequestParams(){
-                //$params = $this->request->query('params');
+        $params = $this->request->query('params');
 		$params = json_decode($this->request->query('params'),true);
-		/*if(!isset($params['username']))
+		if(!isset($params['username']))
 			$params = json_decode($this->request->data('params'),true);
-		*/
+		
 		return $params;
 	}
 }

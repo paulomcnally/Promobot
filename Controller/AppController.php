@@ -55,6 +55,6 @@ class AppController extends Controller {
 		$this->Auth->loginAction = array('controller' => 'users', 'action' => 'login');
 		$this->Auth->logoutRedirect = array('controller' => 'users', 'action' => 'login');
 		$this->Auth->loginRedirect = array('controller' => 'pages', 'action' => 'display', 'home');
-		$this->Auth->allow(array('promobot','addFromLanding'));
+		$this->Auth->allow(array('promobots','addFromLanding'));
 	}
 }

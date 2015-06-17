@@ -19,7 +19,7 @@ class AppAuthenticate extends BaseAuthenticate{
  		$result = $this->userController->User->find('first', $options);
  		if($result){
  			$password = sha1($result['User']['username'].$result['User']['password']);
- 			if("infobot".$password == $params['auth'])
+ 			if("Promobot".$password == $params['auth'])
  				return $result['User'];
  		}
 		return false;

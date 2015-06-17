@@ -25539,3 +25539,1655 @@ Request URL: /images/forward_enabled.png
 Stack Trace:
 #0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-05-11 15:08:39 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-11 15:08:39 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-11 15:08:39 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-11 15:08:39 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-11 15:08:40 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-11 15:09:21 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/0
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-12 12:06:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-12 12:06:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-12 12:06:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-12 12:06:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-12 12:06:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-12 13:18:25 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled_hover.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-12 13:18:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_enabled.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-12 13:18:28 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_enabled_hover.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-12 14:23:49 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-12 14:23:49 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-12 14:23:49 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-12 14:23:49 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-12 14:23:49 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-13 09:39:56 Error: [MissingControllerException] Controller class PhpStorm-19495637-46d1-4fec-861d-80e0944fb38d.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'PhpStorm-19495637-46d1-4fec-861d-80e0944fb38d.phpController',
+  'plugin' => NULL,
+)
+Request URL: /PhpStorm-19495637-46d1-4fec-861d-80e0944fb38d.php
+Stack Trace:
+#0 /var/www/promobot.local/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-13 11:40:00 Error: [MissingControllerException] Controller class PhpStorm-7ce67c33-97fe-4711-bb54-2172f76e5ae8.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'PhpStorm-7ce67c33-97fe-4711-bb54-2172f76e5ae8.phpController',
+  'plugin' => NULL,
+)
+Request URL: /PhpStorm-7ce67c33-97fe-4711-bb54-2172f76e5ae8.php
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-13 11:48:12 Error: [MissingViewException] View file "Promobots/get_update_data.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Promobots/get_update_data.ctp',
+)
+Request URL: /promobots/getUpdateData
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp_promobot/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#4 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-13 11:48:26 Error: [MissingActionException] Action PromobotsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PromobotsController',
+  'action' => 'index',
+)
+Request URL: /promobots
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#2 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-13 11:51:15 Error: [MissingViewException] View file "Promobots/get_update_data.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Promobots/get_update_data.ctp',
+)
+Request URL: /promobots/getUpdateData
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/html/cakephp_promobot/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#4 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-13 11:51:22 Error: [MissingActionException] Action PromobotsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PromobotsController',
+  'action' => 'index',
+)
+Request URL: /promobots
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#2 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-13 12:01:35 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PromobotsController.php, line 8]
+2015-05-13 12:01:35 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /promobots/getUpdateData.json
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:01:36 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PromobotsController.php, line 8]
+2015-05-13 12:01:36 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /promobots/getUpdateData.json
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:02:35 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PromobotsController.php, line 8]
+2015-05-13 12:02:35 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /promobots/getUpdateData.json?params=%7B%22last_update%22%3A%222015%2F04%2F01%22%7D
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:02:36 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PromobotsController.php, line 8]
+2015-05-13 12:02:36 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /promobots/getUpdateData.json?params=%7B%22last_update%22%3A%222015%2F04%2F01%22%7D
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:04:12 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PromobotsController.php, line 8]
+2015-05-13 12:04:12 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /promobots/getUpdateData.json?params=%7B%22last_update%22%3A%222015%2F04%2F01%22%7D
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:04:12 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PromobotsController.php, line 8]
+2015-05-13 12:04:12 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /promobots/getUpdateData.json?params=%7B%22last_update%22%3A%222015%2F04%2F01%22%7D
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:04:13 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PromobotsController.php, line 8]
+2015-05-13 12:04:13 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /promobots/getUpdateData.json?params=%7B%22last_update%22%3A%222015%2F04%2F01%22%7D
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:04:13 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PromobotsController.php, line 8]
+2015-05-13 12:04:13 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /promobots/getUpdateData.json?params=%7B%22last_update%22%3A%222015%2F04%2F01%22%7D
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:04:49 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PromobotsController.php, line 8]
+2015-05-13 12:04:49 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /promobots/getUpdateData.json?params=%7B%22last_update%22%3A%222015%2F04%2F01%22%7D
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:04:49 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PromobotsController.php, line 8]
+2015-05-13 12:04:49 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /promobots/getUpdateData.json?params=%7B%22last_update%22%3A%222015%2F04%2F01%22%7D
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:07:14 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PromobotsController.php, line 8]
+2015-05-13 12:07:14 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /promobots
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:07:14 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PromobotsController.php, line 8]
+2015-05-13 12:07:14 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /promobots
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:07:37 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PromobotsController.php, line 8]
+2015-05-13 12:07:37 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /promobots/getUpdateData.json?params=%7B%22last_update%22%3A%222015%2F04%2F01%22%7D
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 8, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:07:52 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PagesController.php, line 32]
+2015-05-13 12:07:52 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /pages/home
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:07:54 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PagesController.php, line 32]
+2015-05-13 12:07:54 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /pages/home
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:07:54 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PagesController.php, line 32]
+2015-05-13 12:07:54 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /pages/home
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:07:54 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PagesController.php, line 32]
+2015-05-13 12:07:54 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /pages/home
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:08:18 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PagesController.php, line 32]
+2015-05-13 12:08:18 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /pages/home
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:09:16 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PagesController.php, line 32]
+2015-05-13 12:09:16 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /pages/home
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:09:17 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PagesController.php, line 32]
+2015-05-13 12:09:17 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /pages/home
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:09:17 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PagesController.php, line 32]
+2015-05-13 12:09:17 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /pages/home
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:09:18 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PagesController.php, line 32]
+2015-05-13 12:09:18 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /pages/home
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:09:18 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PagesController.php, line 32]
+2015-05-13 12:09:18 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /pages/home
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:09:18 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PagesController.php, line 32]
+2015-05-13 12:09:18 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /pages/home
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:09:19 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PagesController.php, line 32]
+2015-05-13 12:09:19 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /pages/home
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:09:19 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PagesController.php, line 32]
+2015-05-13 12:09:19 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /pages/home
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:09:19 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PagesController.php, line 32]
+2015-05-13 12:09:19 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /pages/home
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:09:20 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PagesController.php, line 32]
+2015-05-13 12:09:20 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /pages/home
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:09:28 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PagesController.php, line 32]
+2015-05-13 12:09:28 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:09:44 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PagesController.php, line 32]
+2015-05-13 12:09:44 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:09:45 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/html/cakephp_promobot/app/Controller/PagesController.php, line 32]
+2015-05-13 12:09:45 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/html/c...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/html/c...', 32, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-13 12:14:00 Error: [MissingActionException] Action PromobotsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PromobotsController',
+  'action' => 'index',
+)
+Request URL: /promobots/
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromobotsController), Object(CakeRequest))
+#2 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-13 15:39:53 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-13 15:39:53 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-13 15:39:53 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-13 15:39:53 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-13 15:39:53 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-14 09:47:09 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-14 09:47:09 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-14 09:47:09 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-14 09:47:09 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-14 09:47:09 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-14 14:21:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/rutaimagen
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-14 14:21:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/0
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-14 14:21:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/rutaimagen
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-14 15:41:23 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled_hover.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-14 15:41:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_enabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-14 15:41:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/0
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-14 15:41:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/0
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-14 17:04:12 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-14 17:04:12 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-14 17:04:12 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-14 17:04:12 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-14 17:04:12 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 09:07:22 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 09:21:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 09:21:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 10:52:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 10:52:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 11:05:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 11:05:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 11:05:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 11:12:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 11:14:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 11:30:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 11:31:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 11:35:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 11:37:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 11:37:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 11:43:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/carrotcake61021.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 11:43:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/bolonesa.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 11:43:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/solarsystem.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 11:43:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/cimbal.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 11:43:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/pizzanapo.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 11:43:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/alitaspicantestiptop.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 11:43:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/pg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 11:44:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 11:52:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 11:52:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 11:55:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 11:59:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 11:59:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 12:01:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 12:04:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 12:07:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 12:07:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 12:12:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 12:12:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 12:12:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 12:18:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 12:18:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 12:23:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 12:31:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 12:31:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 12:39:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 12:39:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 12:39:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 13:22:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 13:22:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 13:44:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 13:53:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 13:53:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 13:56:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 14:29:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 14:29:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 14:41:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 14:41:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 15:04:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 15:10:48 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 15:10:48 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 15:10:48 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 15:10:48 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-15 15:10:49 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-18 10:00:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-18 10:00:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-18 10:00:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-18 10:01:00 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-18 10:01:00 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-18 10:10:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/imagenalitas.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-18 11:00:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-18 11:00:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-18 11:00:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-18 11:00:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-18 11:00:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-18 11:00:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-18 11:23:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/lasania.jpg
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-18 11:24:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-18 11:24:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-18 11:24:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-18 11:24:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-18 11:24:09 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-16 13:37:30 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-16 13:37:30 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-16 13:37:30 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-16 13:37:30 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-16 13:37:30 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-16 14:30:40 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-16 14:30:40 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-16 14:30:40 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-16 14:30:40 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-16 14:30:40 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-16 14:52:49 Error: Fatal Error (1): Class 'QRcode' not found in [/var/www/html/cakephp_promobot/app/View/Helper/QRHelper.php, line 7]
+2015-06-16 14:52:49 Error: [FatalErrorException] Class 'QRcode' not found
+Request URL: /promotions/view/2
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'QRcode' ...', '/var/www/html/c...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'QRcode' ...', '/var/www/html/c...', 7, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'QRcode' ...', '/var/www/html/c...', 7, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-16 14:54:25 Error: Fatal Error (1): Class 'QRcode' not found in [/var/www/html/cakephp_promobot/app/View/Helper/QRHelper.php, line 7]
+2015-06-16 14:54:25 Error: [FatalErrorException] Class 'QRcode' not found
+Request URL: /promotions/view/2
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'QRcode' ...', '/var/www/html/c...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'QRcode' ...', '/var/www/html/c...', 7, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'QRcode' ...', '/var/www/html/c...', 7, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-16 14:54:26 Error: Fatal Error (1): Class 'QRcode' not found in [/var/www/html/cakephp_promobot/app/View/Helper/QRHelper.php, line 7]
+2015-06-16 14:54:26 Error: [FatalErrorException] Class 'QRcode' not found
+Request URL: /promotions/view/2
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'QRcode' ...', '/var/www/html/c...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'QRcode' ...', '/var/www/html/c...', 7, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'QRcode' ...', '/var/www/html/c...', 7, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-16 15:20:13 Error: Fatal Error (1): Call to undefined function ImageCreate() in [/var/www/html/cakephp_promobot/app/Vendor/phpqrcode/qrimage.php, line 74]
+2015-06-16 15:20:13 Error: [FatalErrorException] Call to undefined function ImageCreate()
+Request URL: /promotions/view/2
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/c...', 74)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/c...', 74, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/c...', 74, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-16 15:21:45 Error: Fatal Error (1): Call to undefined function ImageCreate() in [/var/www/html/cakephp_promobot/app/Vendor/phpqrcode/qrimage.php, line 74]
+2015-06-16 15:21:45 Error: [FatalErrorException] Call to undefined function ImageCreate()
+Request URL: /promotions/view/2
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/c...', 74)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/c...', 74, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/c...', 74, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-16 15:21:46 Error: Fatal Error (1): Call to undefined function ImageCreate() in [/var/www/html/cakephp_promobot/app/Vendor/phpqrcode/qrimage.php, line 74]
+2015-06-16 15:21:46 Error: [FatalErrorException] Call to undefined function ImageCreate()
+Request URL: /promotions/view/2
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/c...', 74)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/c...', 74, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/c...', 74, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-16 15:26:09 Error: Fatal Error (1): Call to undefined function ImageCreate() in [/var/www/html/cakephp_promobot/app/Vendor/phpqrcode/qrimage.php, line 74]
+2015-06-16 15:26:09 Error: [FatalErrorException] Call to undefined function ImageCreate()
+Request URL: /promotions/view/2
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/html/c...', 74)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/html/c...', 74, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/html/c...', 74, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-16 15:57:30 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-16 15:57:30 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-16 15:57:30 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-16 15:57:30 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-16 15:57:30 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

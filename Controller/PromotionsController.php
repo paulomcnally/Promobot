@@ -14,8 +14,10 @@ class PromotionsController extends AppController {
  * @var array
  */
 	public $components = array('Paginator');
-           
-/**
+        public $helpers = array('QR');
+
+
+        /**
  * index method
  *
  * @return void
@@ -39,6 +41,7 @@ class PromotionsController extends AppController {
  * @return void
  */
 	public function view($id = null) {
+//            $this->helpers[] = 'QR';
 		if (!$this->Promotion->exists($id)) {
 			throw new NotFoundException(__('Invalid promotion'));
 		}

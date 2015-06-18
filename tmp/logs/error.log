@@ -27191,3 +27191,680 @@ Request URL: /images/forward_enabled.png
 Stack Trace:
 #0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-06-17 09:56:15 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 09:56:15 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 09:56:15 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 09:56:15 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 09:56:16 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 09:56:33 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 10:38:07 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 10:38:07 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 10:38:07 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 10:38:07 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 10:38:08 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 10:48:32 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 10:48:32 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 10:48:32 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 10:48:32 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 10:48:32 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 11:45:33 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 11:45:33 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 11:45:33 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 11:45:33 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 11:45:33 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 12:20:20 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 12:20:20 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 12:20:20 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 12:20:20 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 12:20:20 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 14:16:45 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 14:16:45 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 14:16:45 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 14:16:45 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 14:16:45 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-17 14:17:53 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-18 10:20:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-18 10:20:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-18 10:20:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-18 10:20:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-18 10:20:03 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-18 10:22:55 Error: Fatal Error (1): Class 'QRcode' not found in [/var/www/html/cakephp_promobot/app/Controller/Component/QRComponent.php, line 14]
+2015-06-18 10:22:55 Error: [FatalErrorException] Class 'QRcode' not found
+Request URL: /promotions/add/14
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'QRcode' ...', '/var/www/html/c...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'QRcode' ...', '/var/www/html/c...', 14, Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'QRcode' ...', '/var/www/html/c...', 14, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-06-18 10:37:27 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column '66ffc00eaa3fd9c9dc06fe5432ec547e' in 'field list'
+Request URL: /promotions/add/14
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('insert into pro...', Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('insert into pro...', Array, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('insert into pro...')
+#4 [internal function]: DboSource->query('insert into pro...')
+#5 /var/www/html/cakephp_promobot/lib/Cake/Model/Model.php(3447): call_user_func_array(Array, Array)
+#6 /var/www/html/cakephp_promobot/app/Model/Promotionqr.php(31): Model->query('insert into pro...')
+#7 /var/www/html/cakephp_promobot/app/Controller/PromotionsController.php(88): Promotionqr->savePromoQr('13', 1, 1434645447, '66ffc00eaa3fd9c...')
+#8 [internal function]: PromotionsController->add('14')
+#9 /var/www/html/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromotionsController), Array)
+#10 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromotionsController), Object(CakeRequest))
+#12 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-06-18 11:01:59 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Request URL: /promotions/add/14
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('insert into pro...', Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('insert into pro...', Array, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('insert into pro...')
+#4 [internal function]: DboSource->query('insert into pro...')
+#5 /var/www/html/cakephp_promobot/lib/Cake/Model/Model.php(3447): call_user_func_array(Array, Array)
+#6 /var/www/html/cakephp_promobot/app/Model/Promotionqr.php(31): Model->query('insert into pro...')
+#7 /var/www/html/cakephp_promobot/app/Controller/PromotionsController.php(88): Promotionqr->savePromoQr('14', 1, 1434646919, '351a89c96314262...')
+#8 [internal function]: PromotionsController->add('14')
+#9 /var/www/html/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromotionsController), Array)
+#10 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromotionsController), Object(CakeRequest))
+#12 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-06-18 11:03:47 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column '8829564b3a3b88728ce273d76910b566' in 'field list'
+Request URL: /promotions/add/14
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('insert into pro...', Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('insert into pro...', Array, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('insert into pro...')
+#4 [internal function]: DboSource->query('insert into pro...')
+#5 /var/www/html/cakephp_promobot/lib/Cake/Model/Model.php(3447): call_user_func_array(Array, Array)
+#6 /var/www/html/cakephp_promobot/app/Model/Promotionqr.php(31): Model->query('insert into pro...')
+#7 /var/www/html/cakephp_promobot/app/Controller/PromotionsController.php(88): Promotionqr->savePromoQr('15', 1, 1434647027, '8829564b3a3b887...')
+#8 [internal function]: PromotionsController->add('14')
+#9 /var/www/html/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromotionsController), Array)
+#10 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromotionsController), Object(CakeRequest))
+#12 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-06-18 11:54:14 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c9931642e9d4884cae85431be27ccaa7' in 'field list'
+Request URL: /promotions/add/14
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('insert into pro...', Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('insert into pro...', Array, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('insert into pro...')
+#4 [internal function]: DboSource->query('insert into pro...')
+#5 /var/www/html/cakephp_promobot/lib/Cake/Model/Model.php(3447): call_user_func_array(Array, Array)
+#6 /var/www/html/cakephp_promobot/app/Model/Promotionqr.php(31): Model->query('insert into pro...')
+#7 /var/www/html/cakephp_promobot/app/Controller/PromotionsController.php(88): Promotionqr->savePromoQr('16', 1, 1434650054, 'c9931642e9d4884...')
+#8 [internal function]: PromotionsController->add('14')
+#9 /var/www/html/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromotionsController), Array)
+#10 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromotionsController), Object(CakeRequest))
+#12 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-06-18 12:01:50 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column '1c9b59a6c783d2f030afb449bf7363ef' in 'field list'
+Request URL: /promotions/add/14
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('insert into pro...', Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('insert into pro...', Array, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('insert into pro...')
+#4 [internal function]: DboSource->query('insert into pro...')
+#5 /var/www/html/cakephp_promobot/lib/Cake/Model/Model.php(3447): call_user_func_array(Array, Array)
+#6 /var/www/html/cakephp_promobot/app/Model/Promotionqr.php(31): Model->query('insert into pro...')
+#7 /var/www/html/cakephp_promobot/app/Controller/PromotionsController.php(88): Promotionqr->savePromoQr('17', 1, 1434650510, '1c9b59a6c783d2f...')
+#8 [internal function]: PromotionsController->add('14')
+#9 /var/www/html/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromotionsController), Array)
+#10 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromotionsController), Object(CakeRequest))
+#12 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-06-18 12:06:52 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1,6559af84f16515aa9bae4fe9de0171fb.png)' at line 1
+Request URL: /promotions/add/14
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('insert into pro...', Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('insert into pro...', Array, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('insert into pro...')
+#4 [internal function]: DboSource->query('insert into pro...')
+#5 /var/www/html/cakephp_promobot/lib/Cake/Model/Model.php(3447): call_user_func_array(Array, Array)
+#6 /var/www/html/cakephp_promobot/app/Model/Promotionqr.php(31): Model->query('insert into pro...')
+#7 /var/www/html/cakephp_promobot/app/Controller/PromotionsController.php(88): Promotionqr->savePromoQr('18', 1, 1434650812, '6559af84f16515a...')
+#8 [internal function]: PromotionsController->add('14')
+#9 /var/www/html/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromotionsController), Array)
+#10 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromotionsController), Object(CakeRequest))
+#12 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-06-18 12:08:14 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column '7aaff96e7f25d88088c48f28ecfa5f3c' in 'field list'
+Request URL: /promotions/add/14
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('insert into pro...', Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('insert into pro...', Array, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('insert into pro...')
+#4 [internal function]: DboSource->query('insert into pro...')
+#5 /var/www/html/cakephp_promobot/lib/Cake/Model/Model.php(3447): call_user_func_array(Array, Array)
+#6 /var/www/html/cakephp_promobot/app/Model/Promotionqr.php(31): Model->query('insert into pro...')
+#7 /var/www/html/cakephp_promobot/app/Controller/PromotionsController.php(88): Promotionqr->savePromoQr('19', 1, 1434650894, '7aaff96e7f25d88...')
+#8 [internal function]: PromotionsController->add('14')
+#9 /var/www/html/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromotionsController), Array)
+#10 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromotionsController), Object(CakeRequest))
+#12 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-06-18 12:11:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column '6a2d2dfecd9d953ffc980ca905f3adc9.png' in 'field list'
+Request URL: /promotions/add/14
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('insert into pro...', Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('insert into pro...', Array, Array)
+#3 /var/www/html/cakephp_promobot/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('insert into pro...')
+#4 [internal function]: DboSource->query('insert into pro...')
+#5 /var/www/html/cakephp_promobot/lib/Cake/Model/Model.php(3447): call_user_func_array(Array, Array)
+#6 /var/www/html/cakephp_promobot/app/Model/Promotionqr.php(31): Model->query('insert into pro...')
+#7 /var/www/html/cakephp_promobot/app/Controller/PromotionsController.php(88): Promotionqr->savePromoQr('20', 1, 1434651062, '6a2d2dfecd9d953...')
+#8 [internal function]: PromotionsController->add('14')
+#9 /var/www/html/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromotionsController), Array)
+#10 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromotionsController), Object(CakeRequest))
+#12 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-06-18 12:14:36 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-18 12:14:36 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-18 12:14:36 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-18 12:14:36 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-18 12:14:36 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-18 12:15:26 Error: [NotFoundException] Invalid promotion
+Request URL: /promotions/delete/21
+Stack Trace:
+#0 [internal function]: PromotionsController->delete('21')
+#1 /var/www/html/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromotionsController), Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromotionsController), Object(CakeRequest))
+#4 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-18 12:15:47 Error: [NotFoundException] Invalid promotion
+Request URL: /promotions/delete/21
+Stack Trace:
+#0 [internal function]: PromotionsController->delete('21')
+#1 /var/www/html/cakephp_promobot/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PromotionsController), Array)
+#2 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/cakephp_promobot/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PromotionsController), Object(CakeRequest))
+#4 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-06-18 12:39:07 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-18 12:39:07 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-18 12:39:07 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-18 12:39:07 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-18 12:39:07 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-18 13:45:23 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-18 13:45:23 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-18 13:45:23 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-18 13:45:23 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-18 13:45:23 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-18 16:28:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_both.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-18 16:28:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/back_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-18 16:28:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_disabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-18 16:28:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/sort_asc.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-18 16:28:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/forward_enabled.png
+Stack Trace:
+#0 /var/www/html/cakephp_promobot/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

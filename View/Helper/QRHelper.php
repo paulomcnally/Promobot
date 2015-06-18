@@ -7,6 +7,8 @@ class QRHelper extends AppHelper {
         QRcode::png($text);
     }
     public function crearQRfile($text){
+        $timezone = new DateTimeZone('America/Managua');
+        $date = new DateTime('now', $timezone);
         QRcode::png($text, 'filename.png');
     }
 }

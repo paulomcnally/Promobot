@@ -56,10 +56,11 @@
 			<?php echo h($promotion['Promotion']['modified']); ?>
 			&nbsp;
 		</dd>
-                <dt><?php echo __('codigo QR'); ?></dt>
-                <dd>
-                    <?php echo $this->QR->crearQRfile('codigo QR') ?>
-                </dd>
+		<dt><?php echo __('Codigo QR'); ?></dt>
+		<dd>
+                        <?php echo $this->Html->image($image, array('alt' => $image, 'style' => "width: 80px;")); ?>
+			&nbsp;
+		</dd>
 	</dl>
 </div>
 <div class="actions">

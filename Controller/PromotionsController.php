@@ -13,7 +13,7 @@ class PromotionsController extends AppController {
  *
  * @var array
  */
-	public $components = array('Paginator');
+	public $components = array('Paginator','QR');
         public $helpers = array('QR');
 
 
@@ -41,12 +41,19 @@ class PromotionsController extends AppController {
  * @return void
  */
 	public function view($id = null) {
-//            $this->helpers[] = 'QR';
+                $this->loadModel('Promotionqr');
+                $path = 'promotions/';
 		if (!$this->Promotion->exists($id)) {
 			throw new NotFoundException(__('Invalid promotion'));
 		}
+                //codigo para QR
+                $img = $this->Promotionqr->query("select qrimage from promotionqr where promotions_id = " . $id);
+                $image = $path . $img[0]['promotionqr']['qrimage']; 
+//                var_dump($image);
+//                exit();
 		$options = array('conditions' => array('Promotion.' . $this->Promotion->primaryKey => $id));
 		$this->set('promotion', $this->Promotion->find('first', $options));
+                $this->set(compact('image'));
 	}
 
 /**
@@ -55,6 +62,7 @@ class PromotionsController extends AppController {
  * @return void
  */
 	public function add($id = null) {
+            $this->loadModel('Promotionqr');
 		if ($this->request->is('post')) {
                     //var_dump($this->request->data);
                     //exit();
@@ -72,11 +80,24 @@ class PromotionsController extends AppController {
 			}
 			$this->Promotion->create();
 			if ($this->Promotion->save($this->request->data)) {
+                                //codigo para procesamiento de codigo QR
+                                $date = time();
+                                $pid = $this->Promotion->getLastInsertId();
+                                $text = $pid . $date;
+                                $hash = Security::hash($text, 'md5', false);
+                                $this->QR->crearQRfile($hash);
+                        
+                                //save promotionsQr data
+                                $li = $this->Promotionqr->getLastId();
+                                $lid = $li[0][0]['MAX( id )'] + 1;
+                                $this->Promotionqr->savePromoQr($pid,$lid,$date,$hash);
+                                
 				$this->Session->setFlash(__('La promocion fue guardada.'));
 				return $this->redirect(array('action' => 'index'));
 			} else {
 				$this->Session->setFlash(__('La promocion no pudo ser guardad. Porfavor, Intente nuevamente.'));
 			}
+                                                
 		}
                 $options = array('conditions' => array('businesses_id' => $id));
 		$promotionDetails = $this->Promotion->PromotionDetail->find('list',$options);
@@ -128,7 +149,7 @@ class PromotionsController extends AppController {
 
                 $options = array('conditions' => array('businesses_id' => $bid));
                 $promotionDetails = $this->Promotion->PromotionDetail->find('list',$options);
-                $this->set(compact('promotionDetails','currentPromo'));
+                $this->set(compact('promotionDetails','currentPromo','id'));
 	}
 
 /**

@@ -13,7 +13,7 @@ class PromotionsController extends AppController {
  *
  * @var array
  */
-	public $components = array('Paginator','QR');
+	public $components = array('Paginator','QR','RequestHandler');
         public $helpers = array('QR');
 
 
@@ -49,8 +49,7 @@ class PromotionsController extends AppController {
                 //codigo para QR
                 $img = $this->Promotionqr->query("select qrimage from promotionqr where promotions_id = " . $id);
                 $image = $path . $img[0]['promotionqr']['qrimage']; 
-//                var_dump($image);
-//                exit();
+                
 		$options = array('conditions' => array('Promotion.' . $this->Promotion->primaryKey => $id));
 		$this->set('promotion', $this->Promotion->find('first', $options));
                 $this->set(compact('image'));
@@ -64,15 +63,14 @@ class PromotionsController extends AppController {
 	public function add($id = null) {
             $this->loadModel('Promotionqr');
 		if ($this->request->is('post')) {
-                    //var_dump($this->request->data);
-                    //exit();
+                    
                    	$path = "business";
 			$fileComponent = $this->Components->load('File');
                         $img = $this->data['Promotion']['image'];
                         $imgUpload = $fileComponent->uploadFile($img, $path);
 
 			if($imgUpload){
-				$this->request->data['Promotion']['image'] = $path.DS.$imgUpload;
+                            $this->request->data['Promotion']['image'] = $path.DS.$imgUpload;
                         }
 			else{
 				$this->request->data['Promotion']['image'] = '';
@@ -85,7 +83,7 @@ class PromotionsController extends AppController {
                                 $pid = $this->Promotion->getLastInsertId();
                                 $text = $pid . $date;
                                 $hash = Security::hash($text, 'md5', false);
-                                $this->QR->crearQRfile($hash);
+                                $this->QR->crearQRfile($hash,$pid);
                         
                                 //save promotionsQr data
                                 $li = $this->Promotionqr->getLastId();
@@ -112,14 +110,15 @@ class PromotionsController extends AppController {
  * @return void
  */
 	public function edit($id = null,$bid = null) {
+                $this->loadModel('Promotionqr');
+                $path = 'promotions/';
 		if (!$this->Promotion->exists($id)) {
 			throw new NotFoundException(__('Invalid promotion'));
 		}
                 $options = array('conditions' => array('Promotion.' . $this->Promotion->primaryKey => $id));
                 $currentPromo = $this->Promotion->find('first', $options);
 		if ($this->request->is(array('post', 'put'))) {
-                        //var_dump($this->request->data);
-                        //exit();
+
                         $path = "business";
 			$fileComponent = $this->Components->load('File');
                         
@@ -142,11 +141,24 @@ class PromotionsController extends AppController {
 			} else {
 				$this->Session->setFlash(__('La promocion no pudo ser guardad. Porfavor, Intente nuevamente.'));
 			}
-		} else {
+		}
+                else {
 			$options = array('conditions' => array('Promotion.' . $this->Promotion->primaryKey => $id));
 			$this->request->data = $this->Promotion->find('first', $options);
 		}
-
+                //procesamiento QR
+                $img = $this->Promotionqr->query("select qrimage from promotionqr where promotions_id = " . $id);
+                $QRempty = empty($img);
+//                var_dump($QRempty);
+//                exit();
+                if(!$QRempty){
+                    $image = $path . $img[0]['promotionqr']['qrimage'];
+                    $this->set(compact('image','QRempty'));
+                }
+                else{
+                    $this->set(compact('QRempty'));
+                }
+                
                 $options = array('conditions' => array('businesses_id' => $bid));
                 $promotionDetails = $this->Promotion->PromotionDetail->find('list',$options);
                 $this->set(compact('promotionDetails','currentPromo','id'));
@@ -172,4 +184,52 @@ class PromotionsController extends AppController {
 		}
 		return $this->redirect(array('action' => 'index'));
 	}
+        
+        public function getQRImage($id = null){
+                $this->loadModel('Promotionqr');
+                
+                $pid = $this->request->query('id',$cachequeries = false);
+                $path = 'promotions/';
+                //verificar si ya existe un Qr asignado a esta promocion
+                $img = $this->Promotionqr->query("select qrimage from promotionqr where promotions_id = " . $pid,$cachequeries = false);
+                
+                if(empty($img)){
+                    $date = time();
+                    $text = $pid . $date;
+                    $hash = Security::hash($text, 'md5', false);
+                    $this->QR->crearQRfile($hash,$pid);
+                        
+                    //save promotionsQr data
+                    $li = $this->Promotionqr->getLastId();
+                    $lid = $li[0][0]['MAX( id )'] + 1;
+                    $this->Promotionqr->savePromoQr($pid,$lid,$date,$hash);
+                    $img = $this->Promotionqr->getImage($pid);
+                    $image = $path . $img[0]['promotionqr']['qrimage'];
+                    
+                    $container = array();
+                    $container['image'] = array();
+                    array_push($container['image'], $image);
+                    $this->set(array('container' => $container, '_serialize' => 'container'));
+                }
+                else{
+                    $pid = $this->request->query('id',$cachequeries = false);
+                    $this->Promotionqr->deletePromoQr($pid);
+                    $date = time();
+                    $text = $pid . $date;
+                    $hash = Security::hash($text, 'md5', false);
+                    $this->QR->crearQRfile($hash,$pid);
+                        
+                    //save promotionsQr data    
+                    $li = $this->Promotionqr->getLastId();
+                    $lid = $li[0][0]['MAX( id )'] + 1;
+                    $this->Promotionqr->savePromoQr($pid,$lid,$date,$hash);
+                    $img = $this->Promotionqr->query("select qrimage from promotionqr where promotions_id = " . $pid,$cachequeries = false);
+                    $image = $path . $img[0]['promotionqr']['qrimage']; 
+
+                    $container = array();
+                    $container['image'] = array();
+                    array_push($container['image'], $image);
+                    $this->set(array('container' => $container, '_serialize' => 'container'));
+                }
+        }
 }

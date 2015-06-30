@@ -1,6 +1,6 @@
 <?php
    $rjson = array();
-   $cont = 0;  
+   $cont = 0;
 
    if( $_GET["id"] === "#" ) { //si es el inicio solo cargar nodos raiz
 

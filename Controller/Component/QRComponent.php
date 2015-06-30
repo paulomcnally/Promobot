@@ -10,9 +10,7 @@ App::import('Vendor', 'phpqrcode', array('file' => 'phpqrcode/qrlib.php'));
 
 class QRComponent extends Component {
         
-    public function crearQRfile($hash){
-//        $timezone = new DateTimeZone('America/Managua');
-//        $date = new DateTime('now', $timezone);
-        QRcode::png($hash,"img/promotions/" . $hash.'.png');
+    public function crearQRfile($hash,$pid){
+        QRcode::png($hash,"img/promotions/" . $hash. $pid . '.png');
     }
 }
